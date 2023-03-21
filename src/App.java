@@ -4,7 +4,7 @@ public class App {
 
   public static void main(String[] args) throws Exception {
     Scanner numberInput = new Scanner(System.in);
-    System.out.println("Escolha um número: ");
+    System.out.println("Escolha um número inteiro: ");
 
     try {
       int x = numberInput.nextInt();
